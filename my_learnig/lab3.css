@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    
+    
+
+}
+.box2{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(40, 202, 234);
+    font-size: 20px;
+}
+.box1{
+    
+    color: rgb(39, 154, 207);
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+.box{
+    margin-right: 15px;
+}
+.active{
+    border-bottom:2px solid ;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    font-size: 35px;
+    margin-bottom: 90px;
+}
+div div p span{
+    color: rgb(40, 182, 243);
+}
+.image img{
+    margin-left: 300px;
+    margin-top: 100px;
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+    border-radius: 250px 200px 190px 190px  ;
+}
+footer img{
+    height: 30px;
+    width: 30px;
+    margin-bottom: 30px;
+}
+.lorem{
+    background-color: aqua;
+    height: 25px;
+    text-align: center;
+}
