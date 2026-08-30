@@ -35,11 +35,21 @@
     grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
     justify-items: center;
     align-items: center;
-    text-align: justify;
-    font-size: 35px;
+    font-family: sans-serif;
     margin-bottom: 90px;
 }
+
+.main p:nth-child(4){
+    font-size: 17px;
+    margin-top: 40px;
+}
+.text{ 
+    font-size: 35px;
+    text-align: justify;
+    width: 40%;
+}
 div div p span{
+    font-weight: bold;
     color: rgb(40, 182, 243)
 }
 .image img{
@@ -165,3 +175,29 @@ footer img{
     }
 }
 
+.contact{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    
+}
+.contact P{
+    text-align: left;
+    width: 300px;
+
+}
+.contact b{
+    margin-bottom: 30px;
+    font-size: 30px;
+    padding: 5px 70px ;
+    border-radius: 25px;
+    border: 4px solid rgb(21, 166, 238);
+}
+.contact span{
+    font-weight: bold;
+    color: rgb(0, 179, 255);
+}
