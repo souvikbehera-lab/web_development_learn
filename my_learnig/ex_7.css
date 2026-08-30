@@ -37,12 +37,34 @@
             font-size: 18px;
             color: rgb(193, 2, 2);
         }
+        .down{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px 0px;
+            margin: 60px;
+            font-family: sans-serif;
+            
+        }
+        .down p{
+            font-size: 19px;
+            text-align: center;
+        }
+
+        .down button{
+            background-color: aqua;
+            border-radius: 7px;
+            padding: 9px;
+        }
+        .down span{
+            font-size: 40px;
+        }
         .lang{
             display: grid;
             grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
             grid-template-rows: auto;
-            
-            gap: 15px 40px;
+            gap: 35px 40px;
             justify-items: center;
             
         }
