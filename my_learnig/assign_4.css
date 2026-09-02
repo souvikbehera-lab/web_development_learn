@@ -16,8 +16,11 @@
 }
 .box2 a{
     text-decoration: none;
-    color: rgb(40, 202, 234);
+    color: rgb(0, 137, 164);
 
+}
+.box2 a:hover{
+    border-bottom: 2px solid rgb(3, 176, 210);
 }
 .box1{ 
     color: rgb(39, 154, 207);
